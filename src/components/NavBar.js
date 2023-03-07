@@ -1,9 +1,10 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import logo from '../assets/img/logo.svg';
-import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon1 from '../assets/img/nav-icon1.png';
+import navIcon2 from '../assets/img/nav-icon2.png';
+import navIcon3 from '../assets/img/nav-icon3.png';
+import navIcon4 from '../assets/img/nav-icon4.png';
 export const NavBar = () => {
     const[activeLink,setActiveLink]=useState('home');
     const[scrolled, seScrolled]=useState(false);
@@ -41,6 +42,7 @@ export const NavBar = () => {
                             <a href="#"><img src={navIcon1}/></a>
                             <a href="#"><img src={navIcon2}/></a>
                             <a href="#"><img src={navIcon3}/></a>
+                            <a href="#"><img src={navIcon4}/></a>
                         </div>
                         <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
                     </span>
