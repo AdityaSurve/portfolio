@@ -27,9 +27,13 @@ body{
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
   color: #fff !important;
   font-family: 'Centra',sans-serif !important;
+  background-image: url('../src/assets/img/banner-bg.png');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 h1,h2,h3,h4,h5,h6{
   margin: 0;
@@ -110,15 +114,13 @@ span.navbar-text {
     align-items: center;
 }
 .social-icon {
-    display: flex;
-    flex-direction: row;
-    gap: 1em;
+    display: inline-block;
     margin-left: 14px;
 }
 .social-icon a {
     width: 42px;
     height: 42px;
-    background: rgba(217, 217, 217, 0.1);
+    background: #ffffff50;
     display: inline-flex;
     border-radius: 50%;
     margin-right: 6px;
@@ -231,12 +233,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('https://www.pngall.com/wp-content/uploads/2016/07/Space-Free-PNG-Image.png');
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  position: relative;
 }
 .banner .tagline {
   font-weight: 700;

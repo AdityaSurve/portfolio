@@ -12,7 +12,6 @@ import xmlIcon from "../assets/img/xml.png";
 import pythonIcon from "../assets/img/python.png";
 import AIIcon from "../assets/img/artificial-intelligence.png";
 import MLIcon from "../assets/img/coding.png";
-import colorSharp from "../assets/img/color-sharp.png";
 export const Skills=()=>{
     const responsive = {
         superLargeDesktop:{

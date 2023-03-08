@@ -2,7 +2,6 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import solarProj from "../assets/img/solarSystem.png";
 import omniFood from "../assets/img/omnifood.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 
 export const Projects=()=>{
@@ -53,7 +52,7 @@ export const Projects=()=>{
         },
     ]
     return(
-        <section className="project" id="projects">
+        <section className="project" id="project">
             <Container>
                 <Row>
                     <Col size={12}>
@@ -125,7 +124,6 @@ export const Projects=()=>{
                     </Col>
                 </Row>
             </Container>
-            {/* <img className="background-image-right" src={colorSharp2}></img> */}
         </section>
     )
 }
