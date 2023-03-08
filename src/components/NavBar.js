@@ -39,10 +39,10 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="#"><img src={navIcon1}/></a>
-                            <a href="#"><img src={navIcon2}/></a>
-                            <a href="#"><img src={navIcon3}/></a>
-                            <a href="#"><img src={navIcon4}/></a>
+                            <a href="https://twitter.com/AdityaSurve525" target={"_blank"}><img src={navIcon1}/></a>
+                            <a href="https://github.com/AdityaSurve" target={"_blank"}><img src={navIcon2}/></a>
+                            <a href="https://www.instagram.com/surve_15/" target={"_blank"}><img src={navIcon3}/></a>
+                            <a href="https://www.linkedin.com/in/aditya-surve-3ba667235/" target={"_blank"}><img src={navIcon4}/></a>
                         </div>
                         <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
                     </span>
