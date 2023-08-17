@@ -37,7 +37,11 @@ const Navbar = ({ activeLink, setActiveLink, theme }) => {
             target="_blank"
             className="rounded-full h-6 w-6 flex items-center justify-center"
           >
-            <img src={link.icon} alt={link.name} className="h-full w-full" />
+            <img
+              src={link.icon}
+              alt={link.name}
+              className="h-full w-full object-cover"
+            />
           </a>
         ))}
       </div>
