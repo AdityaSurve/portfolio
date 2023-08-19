@@ -5,7 +5,7 @@ const Banner = ({ theme }) => {
     <div
       className={`flex justify-center ${
         theme === "light" ? "bg-white" : "bg-[#191919]"
-      } items-center p-24 gap-10 h-screen w-full transition-all duration-500`}
+      } items-center p-24 gap-10 transition-all duration-500`}
     >
       <div
         className={`h-full flex justify-center gap-2 items-start flex-col font-extrabold w-full ${

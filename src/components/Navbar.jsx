@@ -35,7 +35,7 @@ const Navbar = ({ activeLink, setActiveLink, theme }) => {
             key={link.name}
             href={link.url}
             target="_blank"
-            className="rounded-full h-6 w-6 flex items-center justify-center"
+            className="rounded-full hover:ring-4 transition-all duration-500 hover:ring-gray-100 bg-gray-50 h-6 w-6 flex items-center justify-center"
           >
             <img
               src={link.icon}

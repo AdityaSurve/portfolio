@@ -1,6 +1,32 @@
-import github from "../assets/github.svg";
-import linkedin from "../assets/linkedin.svg";
-import twitter from "../assets/twitter.svg";
+import github from "../assets/images/github.svg";
+import linkedin from "../assets/images/linkedin.svg";
+import twitter from "../assets/images/twitter.svg";
+
+import artificialIntelligence from "../assets/images/artificial-intelligence.png";
+import bootstrap from "../assets/images/bootstrap.svg";
+import c from "../assets/images/c.svg";
+import cpp from "../assets/images/cpp.svg";
+import css from "../assets/images/css.svg";
+import firebase from "../assets/images/firebase.svg";
+import flask from "../assets/images/flask.svg";
+import git from "../assets/images/git.svg";
+import githubIcon from "../assets/images/github.svg";
+import html from "../assets/images/html.svg";
+import java from "../assets/images/java.svg";
+import javascript from "../assets/images/javascript.svg";
+import machineLearning from "../assets/images/machine-learning.png";
+import materialUi from "../assets/images/material-ui.svg";
+import mongodb from "../assets/images/mongo.png";
+import mysql from "../assets/images/mysql.svg";
+import nestjs from "../assets/images/nestjs.svg";
+import nextjs from "../assets/images/nextjs.svg";
+import nodejs from "../assets/images/nodejs.svg";
+import postgresql from "../assets/images/postgres.svg";
+import python from "../assets/images/python.svg";
+import react from "../assets/images/react.svg";
+import sass from "../assets/images/sass.svg";
+import tailwind from "../assets/images/tailwind-css.svg";
+import typescript from "../assets/images/typescript.svg";
 
 const navbarLinks = [
   {
@@ -50,115 +76,99 @@ const socialMediaLinks = [
 const skills = [
   {
     name: "HTML",
-    icon: "fab fa-html5",
+    icon: html,
   },
   {
     name: "CSS",
-    icon: "fab fa-css3-alt",
+    icon: css,
   },
   {
     name: "JavaScript",
-    icon: "fab fa-js",
+    icon: javascript,
   },
   {
     name: "React",
-    icon: "fab fa-react",
-  },
-  {
-    nameL: "Redux",
-    icon: "fab fa-react",
+    icon: react,
   },
   {
     name: "Tailwind CSS",
-    icon: "fab fa-css3-alt",
+    icon: tailwind,
   },
   {
     name: "Bootstrap",
-    icon: "fab fa-bootstrap",
+    icon: bootstrap,
   },
   {
     name: "Material UI",
-    icon: "fab fa-react",
+    icon: materialUi,
   },
   {
     name: "SASS",
-    icon: "fab fa-sass",
+    icon: sass,
   },
   {
     name: "Node JS",
-    icon: "fab fa-node",
-  },
-  {
-    name: "Express JS",
-    icon: "fas fa-server",
+    icon: nodejs,
   },
   {
     name: "Next JS",
-    icon: "fab fa-react",
+    icon: nextjs,
   },
   {
     name: "Nest JS",
-    icon: "fas fa-server",
+    icon: nestjs,
   },
   {
     name: "TypeScript",
-    icon: "fab fa-js",
+    icon: typescript,
   },
   {
     name: "PostgreSQL",
-    icon: "fas fa-database",
+    icon: postgresql,
   },
   {
     name: "MySQL",
-    icon: "fas fa-database",
+    icon: mysql,
   },
   {
     name: "MongoDB",
-    icon: "fas fa-database",
+    icon: mongodb,
   },
   {
     name: "Python",
-    icon: "fab fa-python",
+    icon: python,
+  },
+  {
+    name: "Flask",
+    icon: flask,
   },
   {
     name: "Machine Learning",
-    icon: "fas fa-robot",
+    icon: machineLearning,
   },
   {
     name: "Artificial Intelligence",
-    icon: "fas fa-robot",
-  },
-  {
-    name: "XML",
-    icon: "fas fa-code",
+    icon: artificialIntelligence,
   },
   {
     name: "Firebase",
-    icon: "fas fa-fire",
-  },
-  {
-    name: "Flutter",
-    icon: "fab fa-flutter",
+    icon: firebase,
   },
   {
     name: "C",
-    icon: "fab fa-cuttlefish",
+    icon: c,
   },
   {
     name: "C++",
-    icon: "fab fa-cuttlefish",
+    icon: cpp,
   },
   {
     name: "Java",
-    icon: "fab fa-java",
+    icon: java,
   },
   {
     name: "Git",
-    icon: "fab fa-git-alt",
-  },
-  {
-    name: "GitHub",
-    icon: "fab fa-github",
+    icon: git,
   },
 ];
 export { navbarLinks, socialMediaLinks, skills };

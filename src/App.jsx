@@ -12,14 +12,16 @@ const App = () => {
     console.log(activeLink);
   }, [activeLink]);
   return (
-    <div className="font-pops w-screen">
+    <div className="font-pops flex flex-col h-screen overflow-hidden justify-center items-center w-screen">
       <Navbar
         activeLink={activeLink}
         setActiveLink={setActiveLink}
         theme={theme}
       />
-      <Banner theme={theme} />
-      <Skills theme={theme} />
+      <div className="w-full overflow-y-auto">
+        <Banner theme={theme} />
+        <Skills theme={theme} />
+      </div>
       <ThemeToggler theme={theme} setTheme={setTheme} />
     </div>
   );
