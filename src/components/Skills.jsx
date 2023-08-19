@@ -4,14 +4,18 @@ import { Tooltip } from "react-tooltip";
 
 const Skills = ({ theme }) => {
   return (
-    <div className="flex flex-col h-screen justify-center p-20 items-center">
+    <div
+      className={`flex flex-col  justify-center ${
+        theme === "light" ? "bg-white" : "bg-[#191919]"
+      } items-center p-5 lg:p-20 transition-all duration-500`}
+    >
       <div className="text-[#42446E] text-3xl font-bold text-center">
         My Tech Stack
       </div>
       <div className="text-[#666666] text-center text-lg mt-2">
         Technologies & Tools I’ve worked on
       </div>
-      <div className="grid grid-cols-12 mt-5 gap-2 w-full relative overflow-hidden">
+      <div className="grid grid-cols-4 lg:grid-cols-12 mt-5 gap-2 w-full relative overflow-hidden">
         {skills.map((skill, index) => (
           <div key={skill.name}>
             <div
