@@ -246,7 +246,7 @@
   justify-content: center;
   text-align: center;
   gap: 10px;
-  background: linear-gradient(-45deg, #915EFF 0%, #322166 100% );
+  background: linear-gradient(-45deg, #915EFF60 0%, #32216660 100% );
   color: #e8e8e8;
   padding: 20px;
   line-height: 1.5;

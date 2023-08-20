@@ -17,7 +17,7 @@ const About = () => {
         Artificial Intelligence and Machine Learning. Let's work together to
         bring your ideas to life!
       </div>
-      <div className="w-full mt-5 grid grid-cols-4 py-5 gap-10">
+      <div className="w-full mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-5 gap-10">
         {skills.map((skill, index) => (
           <SkillsCard
             key={index}
