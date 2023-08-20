@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="absolute inset-0 flex flex-row items-center justify-center">
-        <div className="w-3/4">
+        <div className="w-full lg:w-3/4">
           <img src={image} alt="hero" className="w-full h-full object-cover" />
         </div>
       </div>
