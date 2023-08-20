@@ -21,6 +21,9 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+      boxShadow: {
+        card: "0 10px 20px rgba(0,0,0,0,2)",
+      },
     },
   },
   plugins: [],
