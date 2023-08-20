@@ -1,5 +1,5 @@
 import { styles } from "../styles";
-
+import { image } from "../assets";
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
@@ -20,6 +20,11 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             AI & ML Enthusiast
           </p>
+        </div>
+      </div>
+      <div className="absolute inset-0 flex flex-row items-center justify-center">
+        <div className="w-3/4">
+          <img src={image} alt="hero" className="w-full h-full object-cover" />
         </div>
       </div>
     </section>
