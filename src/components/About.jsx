@@ -5,11 +5,11 @@ import { skills } from "../constants";
 const About = () => {
   return (
     <div className={`${styles.paddingX} w-full flex flex-col py-10`}>
-      <div className="text-xl text-[#AAA6C3]">INTRODUCTION</div>
-      <div className="text-5xl text-white font-bold mt-5 tracking-wide">
+      <div className="text-xl lg:text-3xl text-[#AAA6C3]">INTRODUCTION</div>
+      <div className="text-5xl lg:text-7xl text-white font-bold mt-5 tracking-wide">
         Overview.
       </div>
-      <div className="text-[#AAA6C3] mt-8 w-1/2">
+      <div className="text-[#AAA6C3] text-lg mt-8 w-full text-justify lg:text-left lg:w-1/2">
         I'm a skilled full stack developer with expertise in TypeScript,
         JavaScript, and HTML, focused on frameworks like React, NodeJS, NextJS,
         and NestJS. Alongside libraries such as Tailwind CSS, Material UI, and

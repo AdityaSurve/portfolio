@@ -12,11 +12,9 @@ import {
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bg-cover bg-fixed bg-no-repeat bg-center">
-          <Navbar />
-          <Hero />
-        </div>
+      <div className="bg-hero-pattern relative bg-cover bg-fixed bg-no-repeat bg-center">
+        <Navbar />
+        <Hero />
         <About />
         <Experience />
         <Tech />
