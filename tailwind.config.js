@@ -1,3 +1,5 @@
+const { animate } = require('framer-motion');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx}"],
@@ -25,6 +27,17 @@ module.exports = {
       boxShadow: {
         card: "0 10px 20px rgba(0,0,0,0,2)",
       },
+      keyframes: {
+        "scroll": {
+          "0%": { transform: "translateX(0)" },
+          "20%": { transform: "translateX(calc(-100%/6 * 6))" },
+          "80%": { transform: "translateX(calc(-100%/6 * 6))" },
+          "100%": { transform: "translateX(0)" },
+        }
+      },
+      animation: {
+        "scroll": "scroll 20s linear infinite",
+      }
     },
   },
   plugins: [],
