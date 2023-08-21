@@ -16,7 +16,7 @@ const SkillsCard = ({ title, description, skills }) => {
             {skills.map((skill, index) => (
               <div key={index}>
                 <div
-                  className="h-10 lg:w-14 w-10 lg:h-14 p-1 m-2 rounded-full bg-[#fff3] backdrop-blur-2xl flex items-center justify-center"
+                  className="h-10 w-10 p-1 m-1 rounded-full bg-[#fff3] backdrop-blur-2xl flex items-center justify-center"
                   style={{
                     zIndex: 1,
                     pointerEvents: "auto",

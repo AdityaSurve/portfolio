@@ -19,7 +19,7 @@ const Experience = () => {
                     <div className="border-2-2 border-yellow-555 absolute h-full border border-[#C81470] rounded-[1%] left-[10%] lg:left-[50%]" />
                     {experiences.map((experience, index) => (
                       <div
-                        className={`mb-8 flex justify-between items-center w-full ${
+                        className={`mb-2 flex justify-between items-center w-full ${
                           index % 2 === 0 && "lg:flex-row-reverse"
                         }`}
                         key={index}
